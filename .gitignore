@@ -1,0 +1,7 @@
+.env.development
+.env.production
+.env*
+.serverless
+.
+node_modules
+.build
