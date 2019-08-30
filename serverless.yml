@@ -22,21 +22,14 @@ functions:
         path: /
         method: post
         cors: true
-  # playground:
-  #   handler: src/index.playground
-  #   events:
-  #   - http:
-  #       path: /
-  #       method: get
-  #       cors: true
-  health:
+  photon:
     handler: src/photon.handler
     events:
     - http:
         path: /photon
         method: get
         cors: true
-  test:
+  graphqltest:
     handler: /src/graphql.graphqlHandler
     events:
     - http:
