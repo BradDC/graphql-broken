@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@prisma/nexus": "^0.0.1",
-    "apollo-server-lambda": "^2.9.1",
+    "apollo-server-lambda": "^2.14.2",
     "bcryptjs": "^2.4.3",
     "graphql-shield": "5.3.8",
     "graphql-yoga": "1.17.4",
